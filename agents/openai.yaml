@@ -1,0 +1,6 @@
+interface:
+  display_name: "3ds Max 原生脚本控制"
+  short_description: "通过 MAXScript 和 pymxs 控制 3ds Max，导入 CAD、调整材质并完成 Corona 渲染"
+  default_prompt: "使用 $3dsmax-native-control，通过原生脚本控制 3ds Max 并完成我的建模或渲染任务。"
+policy:
+  allow_implicit_invocation: true

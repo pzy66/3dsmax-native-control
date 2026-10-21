@@ -1,0 +1,33 @@
+# Local runtime state and credentials
+.env
+.env.*
+*.pem
+*.key
+session.json
+prepared.json
+ready.txt
+pending.ms
+startup.ms
+bridge_error.txt
+probe.json
+private_Max.ini
+private_plugcfg/
+jobs/
+temp/
+autoback/
+
+# Native project assets belong outside this skill repository
+*.max
+*.max.bak
+*.sldprt
+*.sldasm
+*.step
+*.stp
+*.exr
+*.cxr
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
